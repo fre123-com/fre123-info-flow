@@ -1,0 +1,95 @@
+{
+	"workbench.editor.autoLockGroups": {
+		"workbench.editorinputs.searchEditorInput": true,
+		"mainThreadWebview-markdown.preview": true
+	},
+	"go.autocompleteUnimportedPackages": true,
+	"go.formatTool": "gofmt",
+	"go.installDependenciesWhenBuilding": true,
+	"workbench.settings.openDefaultKeybindings": true,
+	"workbench.settings.openDefaultSettings": true,
+	"workbench.editorAssociations": {
+		"*.go": "default"
+	},
+	"gopls": {
+		"experimentalWorkspaceModule": true
+	},
+	"go.toolsManagement.autoUpdate": true,
+	"gitlens.debug": true,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"redhat.telemetry.enabled": true,
+	"php.validate.executablePath": "#00b7e4",
+	"joplin.token": "f09863458193b29a71214c6c218e7064287598b40dcf77a52c14a4d83e0f64fb256a6a8d072d74e6f1c719250a6eb778993f15de622cb826d805937ce527a604",
+	"settingsSync.ignoredSettings": ["joplin.token", "-python.formatting.blackPath"],
+	"markdown-preview-enhanced.previewTheme": "vue.css",
+	"dart.debugExternalPackageLibraries": false,
+	"dart.debugSdkLibraries": false,
+	"workbench.startupEditor": "none",
+	"security.workspace.trust.untrustedFiles": "open",
+	"files.associations": {
+		"*.vue": "vue",
+		"*.tpl": "html"
+	},
+	//关闭VSCode在Save时候自动格式化，因为VSCode自带的格式化和ESlint规范并不兼容
+	"editor.formatOnSave": true,
+	//代码保存时，自动执行ESlint格式化代码
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always",
+		"source.fixAll.eslint": "explicit"
+	},
+	// 配置 ESLint 检查的文件类型
+	"Peslint.validate": ["javascript", "vue", "html"],
+	"editor.fontSize": 13,
+	"workbench.colorTheme": "One Dark Pro",
+	"workbench.preferredDarkColorTheme": "Monokai Dimmed",
+	"workbench.preferredHighContrastLightColorTheme": "Monokai",
+	"terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
+	"database-client.resultTheme": "contrast",
+	"editor.semanticTokenColorCustomizations": {},
+	"[python]": {
+		"editor.formatOnType": true,
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+	"python.formatting.provider": "black",
+	"cSpell.userWords": ["Contex", "estiblish", "unplugin"],
+	"terminal.integrated.inheritEnv": false,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"errorLens.excludeBySource": [
+		"ts(2307)",
+		"ts(2560)",
+		"ts(2322)",
+		"compiler(MisplacedFallthrough)",
+		"ts(2769)"
+	],
+	"thunder-client.saveToWorkspace": true,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.maxTokenizationLineLength": 2000000,
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"window.zoomLevel": 1,
+	"notebook.gotoSymbols.showAllSymbols": true,
+	"go.delveConfig": {}
+}
