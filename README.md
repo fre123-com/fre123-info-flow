@@ -1,7 +1,6 @@
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/fre123-com/fre123-info-flow@main/.files/logo.png" width="100" height="100">
 </p>
-<br>
 <h1 align="center">Fre123 Info Flow</h1>
 
 > 👀 聚合全网热榜、技术资讯&文章&周刊等信息流，为用户提供一站式的信息获取平台，快速了解行业动态。
