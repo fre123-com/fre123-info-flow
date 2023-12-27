@@ -30,19 +30,5 @@ module.exports = {
       }
     },
   },
-  // extend: {
-  //   colors: { // 此处用来定义主题的背景色基础样式
-  //     base : "#f3f5fb",
-  //     card : "#f3f5fb",
-  //     'card-hover' : "",
-  //     link : "",
-  //     hover : "",
-  //     'dark-base' : "#343a40",
-  //     'dark-card' : "",
-  //     'dark-card-hover': "",
-  //     'dark-link' : "",
-  //     'dark-hover' : "",
-  //   }
-  // },
 }
 

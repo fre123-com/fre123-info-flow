@@ -7,7 +7,7 @@
 		</p>
 		<div v-for="(news, i) in newsList" class="px-1">
 			<div
-				class="article-item rounded-lg transition-all inline-flex w-full p-3 dark:bg-dark-card bg-slate-100 bg-opacity-0 hover:bg-opacity-100 duration-200"
+				class="article-item rounded-lg transition-all inline-flex w-full p-3 bg-slate-100 bg-opacity-0 hover:bg-opacity-100 duration-200"
 			>
 				<span
 					class="rounded-full text-[14px] w-[16px] h-[16px] text-center leading-[16px] mt-[2px] mr-2 text-white"
