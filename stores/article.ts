@@ -81,7 +81,7 @@ const useArticleStore = defineStore(
 				stats_type: STATS_TYPE_CLICK,
 				target_b_type: type,
 				page: 1,
-				page_size: pageSize * maxPage,
+				page_size: pageSize,
 			}
 			const { data, refresh } = await postApi<IHotNewsPaginationResp>(API_STATS_HOT, {
 				key: JSON.stringify(reqParams),

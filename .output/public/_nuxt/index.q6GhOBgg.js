@@ -1,0 +1,1 @@
+import{d as a,u,r as e,a as c,b as o,_,o as p}from"./entry.HEvRTU0Z.js";const d=a({__name:"index",setup(m){const n=u(),t=e(""),s=e(n.query.p);return(f,l)=>{const r=_;return p(),c(r,{name:"news",source:o(t),page:o(s)},null,8,["source","page"])}}});export{d as default};

@@ -36,7 +36,6 @@ export default defineNuxtConfig({
 				},
 			],
 		},
-		buildAssetsDir: '/',
 	},
 	vite: {
 		// 预处理，全局可用

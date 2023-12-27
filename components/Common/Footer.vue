@@ -20,7 +20,7 @@
 			<!-- Right -->
 			<div class="flex text-[20px] text-black">
 				<!-- GitHub Icon -->
-				<a href="https://github.com/howie6879" target="_blank" class="pr-6 w-">
+				<a href="https://github.com/fre123-com" target="_blank" class="pr-6 w-">
 					<IconsFontAwesome :size="20" class="hover:text-[#0d6efd]" icon="fab fa-github" />
 				</a>
 
