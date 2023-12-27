@@ -28,6 +28,7 @@
 ## 部署
 > 为了防止后端接口被滥用，部署请先通过公众号申请后端访问密钥。
 
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fre123-com/fre123-info-flow&env=NUXT_APP_ID=fe123&NUXT_APP_TOKEN=&NUXT_BACKEND_API=https://www.fre123.com/api/&project-name=fre123-info-flow&repository-name=fre123-info-flow&demo-title=fre123-info-flow&demo-description=fre123-info-flow&demo-url=https%3A%2F%2Ffre123.com&demo-image=https%3A%2F%2Fgeminiprochat.com%2Ficon.svg)
 
 
@@ -56,9 +57,6 @@ NUXT_APP_TOKEN=请求凭证
 #### 运行
 启动成功后，直接访问 http://localhost:3000 即可看到页面如下图所示
 ![Alt text](image-1.png)
-
-
-### vercel 部署
 
 
 ## QA
