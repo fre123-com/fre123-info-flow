@@ -39,11 +39,11 @@
 
 > 我要如何申请后端部署密钥
 
-关注公众号[老胡的储物柜](https://cdn.jsdelivr.net/gh/fre123-com/fre123-info-flow@main/.files/wechat.jpeg)，和我联系申请密钥即可
+关注公众号[老胡的储物柜](https://cdn.jsdelivr.net/gh/fre123-com/fre123-info-flow@main/.files/wechat.jpeg)，和老胡联系申请密钥即可
 
 > 有资源共享群么？
 
-有的，同上联系我后拉你进群，本群都是热爱分享的朋友，只想潜水勿进，谢谢
+有的，同上联系老胡后拉你进群，本群都是热爱分享的朋友，只想潜水勿进，谢谢
 
 ## 说明
 
