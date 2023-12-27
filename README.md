@@ -26,38 +26,30 @@
 - 简洁易用： 界面简洁易用，用户可以轻松找到自己感兴趣的信息
 
 ## 部署
+
 > 为了防止后端接口被滥用，部署请先通过公众号申请后端访问密钥。
 
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fre123-com/fre123-info-flow&env=NUXT_APP_ID,NUXT_APP_TOKEN,NUXT_BACKEND_API&project-name=fre123-info-flow&repository-name=fre123-info-flow&demo-title=fre123-info-flow&demo-description=fre123-info-flow&demo-url=https%3A%2F%2Ffre123.com&demo-image=https%3A%2F%2Fgeminiprochat.com%2Ficon.svg)
-
-
-
-
-本项目使用 `node v18.16.0` 版本环境 `yarn`作为包管理工具
-
+本项目使用 `node v18.16.0` 版本环境 `yarn`作为包管理工具：
 
 ```
-// 克隆项目
 git clone https://github.com/fre123-com/fre123-info-flow.git
 
-// 安装依赖
+# 安装依赖
 cd fre123-info-flow
 yarn install
 
-// 环境配置
-// 打开根目录下面 .env 文件，里面包含了 3 个配置项
+# 环境配置，打开 .env 文件
 NUXT_BACKEND_API=https://www.fre123.com/api
 NUXT_APP_ID=fre123.com
-NUXT_APP_TOKEN=请求凭证
+NUXT_APP_TOKEN=加入公众号获取 Token
 
-// 配置好环境变量之后，直接运行 `yarn dev` 即可
+# 启动成功，访问 http://localhost:3000 
+yarn dev
 ```
 
-#### 运行
-启动成功后，直接访问 http://localhost:3000 即可看到页面如下图所示
-![Alt text](image-1.png)
+**推荐一键部署：👇**
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fre123-com/fre123-info-flow&env=NUXT_APP_ID,NUXT_APP_TOKEN,NUXT_BACKEND_API&project-name=fre123-info-flow&repository-name=fre123-info-flow&demo-title=fre123-info-flow&demo-description=fre123-info-flow&demo-url=https%3A%2F%2Ffre123.com&demo-image=https%3A%2F%2Fgeminiprochat.com%2Ficon.svg)
 
 ## QA
 
