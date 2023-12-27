@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full bg-white dark:bg-[#343a40]">
+	<div class="w-full bg-white">
 		<div
 			id="fre123-header"
 			class="header-transition m-auto flex border-b-gray-50 custom-size sticky py-[15px]"
@@ -13,7 +13,7 @@
 				<a
 					:href="WEB_HOST"
 					target="_blank"
-					class="header-text xl:ml-[10px] leading-[80px] md:text-[22px] hidden 2xl:block text-[#333] dark:text-white"
+					class="header-text xl:ml-[10px] leading-[80px] md:text-[22px] hidden 2xl:block text-[#333]"
 				>
 					{{ headerText }}
 				</a>

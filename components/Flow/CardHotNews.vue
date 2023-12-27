@@ -7,7 +7,7 @@
 		</p>
 		<div v-for="(news, i) in newsList" class="px-1">
 			<div
-				class="article-item rounded-lg transition-all inline-flex w-full p-3 dark:bg-dark-card bg-slate-100 bg-opacity-0 hover:bg-opacity-100 duration-200"
+				class="article-item rounded-lg transition-all inline-flex w-full p-3 bg-slate-100 bg-opacity-0 hover:bg-opacity-100 duration-200"
 			>
 				<span
 					class="rounded-full text-[14px] w-[16px] h-[16px] text-center leading-[16px] mt-[2px] mr-2 text-white"
@@ -23,7 +23,6 @@
 					target="_blank"
 					rel="nofollow"
 					:title="news?.title"
-					@click="statsHandle(news)"
 					>{{ news?.title }}</a
 				>
 				<span class="flex-grow"></span>
@@ -59,18 +58,6 @@ const props = withDefaults(
 		newsType: NEWS_KEY_CATEGORY_HOT_NEWS,
 	},
 )
-
-// 点击数据上报
-const statsHandle = (news: INews) => {
-	const sourceData = {
-		title: news.title,
-		source: news.rss_name,
-		source_alias: news.alias_name,
-		source_url: news.web_data?.web_path,
-		created_at: news.created_at,
-	}
-	statsSet('click', props.newsType, news.link, sourceData)
-}
 
 //获取文章列表
 
