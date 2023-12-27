@@ -41,7 +41,7 @@ yarn install
 # 环境配置，打开 .env 文件
 NUXT_BACKEND_API=https://www.fre123.com/api/
 NUXT_APP_ID=fre123.com
-NUXT_APP_TOKEN=加入公众号获取 Token
+NUXT_APP_TOKEN=关注公众号获取 Token
 
 # 启动成功，访问 http://localhost:3000 
 yarn dev
