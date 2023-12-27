@@ -1,1 +1,0 @@
-import{d as r,u,r as a,n as c,a as p,b as n,_,o as m}from"./entry.HEvRTU0Z.js";const d=r({__name:"[p]",setup(f){const e=u(),s=a(e.params.source),o=a(e.params.p);return o.value>3&&c("/news"),(l,i)=>{const t=_;return m(),p(t,{name:"news",source:n(s),page:n(o)},null,8,["source","page"])}}});export{d as default};

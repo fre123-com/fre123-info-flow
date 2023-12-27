@@ -1,1 +1,0 @@
-import{d as s,u as t,r,a,b as u,_ as c,o as _}from"./entry.HEvRTU0Z.js";const x=s({__name:"index",setup(p){const e=t(),o=r(e.params.source);return(m,f)=>{const n=c;return _(),a(n,{name:"news",source:u(o)},null,8,["source"])}}});export{x as default};
