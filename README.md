@@ -3,10 +3,9 @@
 </p>
 
 <h1 align="center">Fre123 Info Flow</h1>
-
-<p align="center">👀 聚合全网热榜、技术资讯&文章&周刊等信息流，为用户提供一个一站式的信息获取平台，快速了解行业动态</p>
-
-![](https://cdn.jsdelivr.net/gh/fre123-com/fre123-info-flow@main/.files/tech.jpg)
+<br>
+<p align="center">👀 聚合全网热榜、技术资讯&文章&周刊等信息流</p>
+<p align="center">为用户提供一站式的信息获取平台，快速了解行业动态</p>
 
 简体中文 | [English](./README_EN.md)
 
@@ -15,7 +14,6 @@
 - 技术周刊精选：[https://www.fre123.com/weekly](https://www.fre123.com/weekly)
 - 全网热点资讯：[https://www.fre123.com/news](https://www.fre123.com/news)
 - 技术热点资讯：[https://www.fre123.com/tech](https://www.fre123.com/tech)
-
 
 ## 特性
 
